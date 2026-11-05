@@ -1,0 +1,3 @@
+"id.exposure","id.outcome","outcome","exposure","method","Q","Q_df","Q_pval"
+"PCT_to_DVT_clumped","DVT_targets.tsv","DVT_targets.tsv","PCT_to_DVT_clumped","MR Egger",294.147084861,149,1.41776024842876e-11
+"PCT_to_DVT_clumped","DVT_targets.tsv","DVT_targets.tsv","PCT_to_DVT_clumped","Inverse variance weighted",308.914428121733,150,4.47570964864743e-13

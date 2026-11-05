@@ -1,0 +1,2 @@
+"id.exposure","id.outcome","exposure","outcome","snp_r2.exposure","snp_r2.outcome","correct_causal_direction","steiger_pval"
+"RBC_to_DVT_clumped","DVT_targets.tsv","RBC_to_DVT_clumped","DVT_targets.tsv",0.0627414300778477,0.00047864777513683,TRUE,0

@@ -1,0 +1,3 @@
+"id.exposure","id.outcome","outcome","exposure","method","Q","Q_df","Q_pval"
+"RBC_to_DVT","DVT_targets.tsv","DVT_targets.tsv","RBC_to_DVT","MR Egger",256.184045791415,158,1.25495572548437e-06
+"RBC_to_DVT","DVT_targets.tsv","DVT_targets.tsv","RBC_to_DVT","Inverse variance weighted",256.781694692719,159,1.43390564617335e-06

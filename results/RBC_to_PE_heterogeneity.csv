@@ -1,0 +1,3 @@
+"id.exposure","id.outcome","outcome","exposure","method","Q","Q_df","Q_pval"
+"RBC_to_PE","PE_targets.tsv","PE_targets.tsv","RBC_to_PE","MR Egger",248.79495689291,158,5.37586607730464e-06
+"RBC_to_PE","PE_targets.tsv","PE_targets.tsv","RBC_to_PE","Inverse variance weighted",250.315801656336,159,5.09943419778832e-06

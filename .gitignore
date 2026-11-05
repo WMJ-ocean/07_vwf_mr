@@ -1,0 +1,18 @@
+# Raw data and large reference files (not committed)
+01_raw_exposure/
+02_raw_outcome/
+05_coloc/
+tools/
+
+# Python
+__pycache__/
+*.pyc
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+
+# OS / editor
+.DS_Store
+Thumbs.db

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 560" width="100%" role="img">
+<title>Study design of two-layer two-sample Mendelian randomization</title>
+<desc>Two-sample Mendelian randomization design with two exposure layers (blood-cell traits and gene cis-eQTL) tested against three venous thrombotic outcomes, with instrumental-variable assumption checks.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+
+<text x="40" y="30" font-family="sans-serif" font-size="15" font-weight="500" fill="#2C2C2A">Figure 3. Study design</text>
+
+<g>
+<rect x="40" y="48" width="185" height="150" rx="12" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text x="52" y="72" font-family="sans-serif" font-size="13" font-weight="500" fill="#0C447C">Layer 1 · Blood-cell traits</text>
+<text x="52" y="96" font-family="sans-serif" font-size="12" fill="#185FA5">HCT · PLT · MPV · RBC · PCT</text>
+<text x="52" y="118" font-family="sans-serif" font-size="12" fill="#185FA5">Astle et al. 2016 (Cell)</text>
+<text x="52" y="140" font-family="sans-serif" font-size="12" fill="#185FA5">N up to 173,480</text>
+<text x="52" y="162" font-family="sans-serif" font-size="12" fill="#185FA5">98–227 instruments</text>
+<text x="52" y="184" font-family="sans-serif" font-size="11" fill="#185FA5">strict LD clump r²&lt;0.001</text>
+
+<rect x="40" y="212" width="185" height="150" rx="12" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="52" y="236" font-family="sans-serif" font-size="13" font-weight="500" fill="#26215C">Layer 2 · Gene cis-eQTL</text>
+<text x="52" y="260" font-family="sans-serif" font-size="12" fill="#534AB7">24 shear / coagulation genes</text>
+<text x="52" y="282" font-family="sans-serif" font-size="12" fill="#534AB7">VWF · GP1BA · GP6 · ITGB1 …</text>
+<text x="52" y="304" font-family="sans-serif" font-size="12" fill="#534AB7">eQTLGen (Võsa 2021)</text>
+<text x="52" y="326" font-family="sans-serif" font-size="12" fill="#534AB7">N up to 31,684</text>
+<text x="52" y="348" font-family="sans-serif" font-size="11" fill="#534AB7">single cis-eQTL per gene</text>
+</g>
+
+<g>
+<rect x="280" y="150" width="180" height="160" rx="12" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="292" y="178" font-family="sans-serif" font-size="13" font-weight="500" fill="#2C2C2A">Two-sample MR</text>
+<text x="292" y="202" font-family="sans-serif" font-size="12" fill="#5F5E5A">Layer 1: IVW / Egger /</text>
+<text x="292" y="220" font-family="sans-serif" font-size="12" fill="#5F5E5A">weighted median</text>
+<text x="292" y="248" font-family="sans-serif" font-size="12" fill="#5F5E5A">Layer 2: Wald ratio</text>
+<text x="292" y="276" font-family="sans-serif" font-size="12" fill="#5F5E5A">Steiger directionality</text>
+<text x="292" y="294" font-family="sans-serif" font-size="12" fill="#5F5E5A">reverse MR (DVT→HCT)</text>
+</g>
+
+<g>
+<rect x="515" y="48" width="140" height="150" rx="12" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="527" y="76" font-family="sans-serif" font-size="13" font-weight="500" fill="#04342C">Outcomes</text>
+<text x="527" y="100" font-family="sans-serif" font-size="12" fill="#0F6E56">VTE (19,372)</text>
+<text x="527" y="122" font-family="sans-serif" font-size="12" fill="#0F6E56">DVT (8,134)</text>
+<text x="527" y="144" font-family="sans-serif" font-size="12" fill="#0F6E56">PE (9,243)</text>
+<text x="527" y="172" font-family="sans-serif" font-size="11" fill="#0F6E56">FinnGen R12</text>
+</g>
+
+<path class="arr" d="M225 120 L280 200" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path class="arr" d="M225 285 L280 250" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path class="arr" d="M460 230 L515 125" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<g>
+<rect x="40" y="400" width="615" height="120" rx="12" fill="#F1EFE8" stroke="#888780" stroke-width="0.5"/>
+<text x="52" y="426" font-family="sans-serif" font-size="13" font-weight="500" fill="#2C2C2A">Instrumental-variable assumptions</text>
+<text x="52" y="452" font-family="sans-serif" font-size="12" fill="#5F5E5A">(i) Relevance — F &gt; 10</text>
+<text x="52" y="472" font-family="sans-serif" font-size="12" fill="#5F5E5A">(ii) Independence — strict LD clumping, Egger intercept, Cochran Q</text>
+<text x="52" y="492" font-family="sans-serif" font-size="12" fill="#5F5E5A">(iii) Exclusion restriction — Steiger, bidirectional MR, pleiotropy-robust estimators</text>
+<text x="52" y="512" font-family="sans-serif" font-size="11" fill="#888780">Reporting follows STROBE-MR</text>
+</g>
+</svg>

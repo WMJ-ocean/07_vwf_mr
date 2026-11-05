@@ -1,0 +1,3 @@
+"id.exposure","id.outcome","outcome","exposure","method","Q","Q_df","Q_pval"
+"RBC_to_VTE","VTE_targets.tsv","VTE_targets.tsv","RBC_to_VTE","MR Egger",326.25700818036,158,9.02622084884021e-14
+"RBC_to_VTE","VTE_targets.tsv","VTE_targets.tsv","RBC_to_VTE","Inverse variance weighted",327.431830787037,159,9.59784071543028e-14

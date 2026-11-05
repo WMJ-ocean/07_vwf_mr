@@ -1,0 +1,3 @@
+"id.exposure","id.outcome","outcome","exposure","method","Q","Q_df","Q_pval"
+"PLT_to_PE","PE_targets.tsv","PE_targets.tsv","PLT_to_PE","MR Egger",380.102293450435,182,4.60407760843181e-16
+"PLT_to_PE","PE_targets.tsv","PE_targets.tsv","PLT_to_PE","Inverse variance weighted",382.925988945779,183,3.16748518629412e-16

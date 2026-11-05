@@ -1,0 +1,2 @@
+"id.exposure","id.outcome","exposure","outcome","snp_r2.exposure","snp_r2.outcome","correct_causal_direction","steiger_pval"
+"MPV_to_PE_clumped","PE_targets.tsv","MPV_to_PE_clumped","PE_targets.tsv",0.120479475088259,0.000775303283271235,TRUE,0

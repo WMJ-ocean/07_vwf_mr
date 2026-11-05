@@ -1,0 +1,2 @@
+"id.exposure","id.outcome","outcome","exposure","egger_intercept","se","pval"
+"HCT_to_VTE","VTE_targets.tsv","VTE_targets.tsv","HCT_to_VTE",-0.00106220326272705,0.0037432071354461,0.777199104019914

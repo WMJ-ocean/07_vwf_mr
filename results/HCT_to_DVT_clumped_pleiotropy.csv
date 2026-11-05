@@ -1,0 +1,2 @@
+"id.exposure","id.outcome","outcome","exposure","egger_intercept","se","pval"
+"HCT_to_DVT_clumped","DVT_targets.tsv","DVT_targets.tsv","HCT_to_DVT_clumped",-0.00330962249395354,0.00539599952776114,0.541344245947059

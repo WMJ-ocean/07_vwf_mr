@@ -1,0 +1,2 @@
+"id.exposure","id.outcome","outcome","exposure","egger_intercept","se","pval"
+"HCT_to_PE_clumped","PE_targets.tsv","PE_targets.tsv","HCT_to_PE_clumped",0.00464972953825907,0.00480359563711078,0.335906436658735

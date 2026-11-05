@@ -1,0 +1,2 @@
+"id.exposure","id.outcome","outcome","exposure","egger_intercept","se","pval"
+"RBC_to_PE_clumped","PE_targets.tsv","PE_targets.tsv","RBC_to_PE_clumped",0.00376560331452641,0.00338438382342118,0.267997942137283

@@ -1,0 +1,2 @@
+"id.exposure","id.outcome","outcome","exposure","egger_intercept","se","pval"
+"PCT_to_DVT","DVT_targets.tsv","DVT_targets.tsv","PCT_to_DVT",-0.00847146286425363,0.00381441153575156,0.0275705665425515
